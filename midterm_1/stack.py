@@ -5,7 +5,7 @@ start = time.time()
 
 class Stack:
     
-    #@profile
+    
     def __init__(self, size: int):
         self.max = size
         self.elements = [None] * size
@@ -24,7 +24,7 @@ class Stack:
         self.top += 1
         self.elements[self.top] = val
 
-    #@profile
+    @profile
     def pop(self) -> any:
         if self.top == -1:
             print('Stack underflow')

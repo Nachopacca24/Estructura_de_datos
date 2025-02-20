@@ -2,14 +2,14 @@ from stack import Stack
 from memory_profiler import profile
 import time
 
-n = 25000000
+n = 1000
 star = time.time()
 
 stacks = [
-    Stack(n),
-    Stack(2 * n),
-    Stack(3 * n),
-    Stack(4 * n),
+    #Stack(n),
+    #Stack(2000),
+    #Stack(3000),
+    #Stack(4 * n),
     Stack(5 * n),
 ]
 
